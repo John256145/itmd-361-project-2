@@ -20,7 +20,6 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-
 }
 
 /* Change the color of links on hover */
@@ -33,4 +32,23 @@ body {
 .navigation-bar a.active {
   background-color: #9e9e9e;
   color: white;
+}
+
+video {
+  height: 18%;
+  width: 18%;
+}
+
+.index-img img {
+  border-radius: 10px;
+}
+
+mark.red {
+  color: #F44336;
+  background: none;
+}
+
+.interests-img img {
+  height: 50%;
+  width: 50%;
 }
