@@ -58,6 +58,12 @@ mark.gray {
   width: 50%;
 }
 
+#watch-img {
+  /* height: 75%;
+  width: 75%;
+  transform: rotate(90deg); */
+}
+
 .resume {
   text-align: left;
   font-family: sans-serif;
@@ -95,8 +101,11 @@ table {
   color: #f5ff9e;
 }
 
+.hoverPink:hover {
+  color: #ff99d3;
+}
+
 .hoverGlow:hover {
   text-shadow: 2px 2px 5px yellow;
   transition: all 200ms ease-out;
-
 }
