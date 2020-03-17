@@ -48,8 +48,8 @@ mark.red {
   background: none;
 }
 
-mark.white- {
-  color: #e0e0e0;
+mark.gray {
+  color: #aba9a9;
   background: none;
 }
 
@@ -81,4 +81,22 @@ table {
   width:100%;
   border:2px solid white;
   text-align:center;
+}
+
+.hoverGreen:hover {
+  color: #b2f7c2;
+}
+
+.hoverBlue:hover {
+  color: #9eb3ff;
+}
+
+.hoverYellow:hover {
+  color: #f5ff9e;
+}
+
+.hoverGlow:hover {
+  text-shadow: 2px 2px 5px yellow;
+  transition: all 200ms ease-out;
+
 }
