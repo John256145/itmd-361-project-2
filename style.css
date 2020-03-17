@@ -48,7 +48,37 @@ mark.red {
   background: none;
 }
 
+mark.white- {
+  color: #e0e0e0;
+  background: none;
+}
+
 .interests-img img {
   height: 50%;
   width: 50%;
+}
+
+.resume {
+  text-align: left;
+  font-family: sans-serif;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  margin-left: 8%;
+}
+
+#resume-main {
+  margin-right: 15%;
+  margin-left: 8%;
+  text-align: right;
+}
+
+a {
+  color: #b6bfcf;
+}
+
+table {
+  height:100%;
+  width:100%;
+  border:2px solid white;
+  text-align:center;
 }
