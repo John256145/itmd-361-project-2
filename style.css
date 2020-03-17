@@ -109,3 +109,7 @@ table {
   text-shadow: 2px 2px 5px yellow;
   transition: all 200ms ease-out;
 }
+
+.table-text {
+  font-size: 150%;
+}
