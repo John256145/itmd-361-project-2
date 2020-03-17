@@ -12,23 +12,20 @@ body {
   display: inline-block;
 }
 
-/* Style the links inside the navigation bar */
 .navigation-bar a {
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 108%;
 }
 
-/* Change the color of links on hover */
 .navigation-bar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .navigation-bar a.active {
   background-color: #9e9e9e;
   color: white;
@@ -40,7 +37,7 @@ video {
 }
 
 .index-img img {
-  border-radius: 10px;
+  border-radius: 5%;
 }
 
 mark.red {
@@ -53,15 +50,13 @@ mark.gray {
   background: none;
 }
 
+mark.title {
+  background: none;
+  color: #c7c7c7;
+}
 .interests-img img {
   height: 50%;
   width: 50%;
-}
-
-#watch-img {
-  /* height: 75%;
-  width: 75%;
-  transform: rotate(90deg); */
 }
 
 .resume {
@@ -69,13 +64,16 @@ mark.gray {
   font-family: sans-serif;
   margin-bottom: 10%;
   margin-right: 10%;
-  margin-left: 8%;
+  margin-left: 10%;
+  width: 1500px;
+
 }
 
 #resume-main {
   margin-right: 15%;
-  margin-left: 8%;
+  margin-left: 10%;
   text-align: right;
+  width: 1500px;
 }
 
 a {
@@ -111,5 +109,6 @@ table {
 }
 
 .table-text {
-  font-size: 150%;
+  /* font-size: 150%; */
+  font-size: 25px;
 }
